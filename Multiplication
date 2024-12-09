@@ -1,0 +1,13 @@
+package sampleproject;
+
+public class mult {
+
+	public static void main(String[] args) {
+		int a=66;
+		int b=99;
+		int c=(a*b);
+		System.out.println(c);
+
+	}
+
+}
