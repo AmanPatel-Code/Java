@@ -1,0 +1,17 @@
+package sampleproject;
+import java.util.*;
+public class inputsum {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your first number:");
+		int a = sc.nextInt();
+		System.out.println("Enter your second number:");
+		int b = sc.nextInt();
+		System.out.print("Total sum is :");
+		int sum = (a+b);
+		System.out.println(sum);// TODO Auto-generated method stub
+
+	}
+
+}
