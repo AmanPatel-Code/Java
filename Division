@@ -1,0 +1,10 @@
+package sampleproject;
+
+public class devide {
+	public static void main(String[] args) {
+		int a =99;
+		int b =66;
+		float c =(a/b);
+		System.out.println(c);
+}
+}
