@@ -1,0 +1,24 @@
+package sampleproject;
+import java.util.*;
+
+public class condition_take_two_input {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter your first numbr:");
+		int a = sc.nextInt();
+		System.out.println("Enter your Second numbr:");
+		int b = sc.nextInt();
+		System.out.println("Final result is:");
+		if(a==b) {
+			System.out.println("Both number are Equal");
+		}else {
+			if(a>b) {
+				System.out.println("A is Greater");
+			}else {
+				System.out.println("A is lesser");
+			}
+		}
+		}
+
+}
