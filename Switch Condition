@@ -1,0 +1,24 @@
+package sampleproject;
+import java.util.*;
+
+public class switch_case {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner Sc = new Scanner(System.in);
+	    System.out.println("Pres Your Key:");
+		int button = Sc.nextInt();
+		switch (button){
+			case 1 : System.out.println("Aman");
+			break;
+			case 2 :System.out.println("Rohit");
+			break;
+			case 3 : System.out.println("Anmol");
+			break;
+			case 4 : System.out.println("Devi");
+			break;
+			default :System.out.println("Pallw");
+		}
+	}
+
+}
