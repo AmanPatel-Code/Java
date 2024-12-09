@@ -1,0 +1,14 @@
+package sampleproject;
+
+public class Diff {
+
+	public static void main(String[] args) {
+		int a = 16;
+		int b = 25;
+		int diff = (a-b);
+		// TODO Auto-generated method stub
+		System.out.println(diff);
+
+	}
+
+}
