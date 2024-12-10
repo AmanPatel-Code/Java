@@ -1,1 +1,19 @@
 
+package sampleproject;
+import java.util.*;
+
+public class table {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("input your number");
+		int num = sc.nextInt();
+		for(int i =1; i<11;i++) {
+			System.out.println(num*i);
+		}
+		
+	 
+
+	}
+
+}
